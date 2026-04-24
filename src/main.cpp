@@ -41,7 +41,7 @@ std::vector<AutopilotButtonConfig> pilot_buttons = {
 };
 uint8_t decklight_pin = 21;
 bool decklight_state = false;
-uint8_t dodgerlight_pin = 22;
+uint8_t dodgerlight_pin = 23;
 bool dodgerlight_state = false;
 
 std::vector<std::shared_ptr<DigitalInputChange>> pilot_button_sensors; 
